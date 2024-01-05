@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(../public/123.png);
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main {
+  width: 500px; /* ширина */
+  margin: 0 auto; /* центрування блоку */
+  padding: 10px 30px;
+  border: 4px solid #1c3a12;
+  border-radius: 10px;
+  background-color: #ECFFDC;
+
+  ;
+}
+
+.title {
+  font-size: 24px;
+  color: #1c3a12;
+  ;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between; /* горизонтально - по краям */
+  align-items: center; /* вертикально - по центру */
+  border-bottom: 1px solid #444434 ; /* нижня рамка пыд задачею */
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #444434
+  ;
+  color:white;
+  ;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 14px;
+
+  transition: all 0.3s; /* плавна анімація */
+}
+
+.btn:hover {
+  background-color: white;
+  color:#444434;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #444434;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #444434;
+  letter-spacing: 2px;
+}
+
+.complete {
+  text-decoration: line-through;
+  color:  rgb(149, 146, 146)128, 128, 128;
+}
